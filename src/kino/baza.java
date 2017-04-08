@@ -9,11 +9,11 @@ import java.sql.*;
 
 public class baza {
     static Connection conn = null;
-    private String host = "188.128.218.206";
-    private String db = "21764779_kino";
+    private String host = "";
+    private String db = "";
     private int port = 3306;
-    private String user = "21764779_kino";
-    private String pass = "A%^dxm3&!wRb";
+    private String user = "";
+    private String pass = "";
     private String url = "jdbc:mysql://%s:%d/%s";
 
 
